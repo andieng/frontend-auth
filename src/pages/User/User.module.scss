@@ -1,0 +1,16 @@
+.back-btn {
+    display: block;
+    width: fit-content;
+    border-radius: 30px;
+    padding: 8px 24px;
+    font-weight: 600;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 2rem;
+    color: #fff;
+    background-color: rgb(63, 125, 250);
+
+    &:hover {
+        background-color: rgb(12, 92, 253);
+    }
+}

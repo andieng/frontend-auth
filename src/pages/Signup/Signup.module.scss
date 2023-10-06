@@ -1,0 +1,32 @@
+.wrapper {
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+}
+
+.submit-btn {
+    width: 100%;
+    font-size: 1.6rem;
+    margin-top: 32px;
+}
+
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    padding: 30px 50px;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.redirect {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.to-login:hover {
+    text-decoration: underline;
+}

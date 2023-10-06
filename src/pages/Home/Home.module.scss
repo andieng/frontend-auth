@@ -1,0 +1,44 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 160px;
+    text-align: center;
+
+    a {
+        border-radius: 30px;
+        padding: 14px 24px;
+        font-weight: 600;
+        margin: 0 50px;
+        font-size: 2rem;
+    }
+}
+
+.title {
+    font-size: 6rem;
+}
+
+.btn-container {
+    margin-top: 100px;
+}
+
+.primary-btn {
+    color: #fff;
+    background-color: rgb(63, 125, 250);
+
+    &:hover {
+        background-color: rgb(12, 92, 253);
+    }
+}
+
+.secondary-btn {
+    color: rgb(63, 125, 250);
+    background-color: transparent;
+    border: 1px solid rgb(63, 125, 250);
+
+    &:hover {
+        background-color: rgb(63, 125, 250);
+        border-color: none;
+        color: #fff;
+    }
+}

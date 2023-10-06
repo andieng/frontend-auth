@@ -1,0 +1,60 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --color-text-normal: #44465e;
+    --color-background: rgb(238, 251, 255);
+    --default-font-family: 'Quicksand', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--default-font-family);
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--color-text-normal);
+    line-height: 1.5;
+    background-color: var(--color-background);
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+    font-family: var(--default-font-family);
+}
+
+button {
+    border-radius: 20px;
+    padding: 10px 16px;
+    color: #fff;
+    background-color: rgb(63, 125, 250);
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgb(12, 92, 253);
+    }
+}
+
+input {
+    border-radius: 20px;
+    background-color: #f7f7fd;
+    padding: 10px 16px;
+    font-size: 1.6rem;
+}
+
+a[href] {
+    text-decoration: none;
+}
